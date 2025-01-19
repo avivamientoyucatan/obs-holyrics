@@ -1,0 +1,84 @@
+span.header {
+    display: block;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    font-size: 4px;
+    width: 100%;
+    margin: auto;
+}
+
+.music_slide {
+    padding: 400px 200px 80px 200px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Agrandir Grand Heavy";
+}
+
+.text_slide {
+    padding: 400px 200px 80px 200px;
+    width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 1.5em !important;
+    font-family: "Agrandir Grand Heavy";
+}
+
+.music_slide>br {
+    content: "";
+}
+
+.music_slide>br::before {
+    content: ", ";
+    width: 10px;
+    height: 10px;
+}
+
+ctt desc {
+    font-family: "Agrandir Grand Heavy"
+}
+
+.bible_slide {
+    font-family: "Open Sans";
+    padding: 400px 200px 80px 200px;
+    width: 100%;
+}
+
+desc {
+    font-weight: 700;
+}
+
+.text-custom {
+    border: none;
+    background: rgba(0, 0, 0, 0) !important;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+}
+
+.text-custom span {
+    display: unset;
+    --bsc: black;
+    font-size: 4rem;
+    line-height: 1.3em;
+}
+
+.bible-header-custom {
+    margin: auto !important;
+    margin-bottom: 0.2em !important;
+    display: table !important;
+}
+
+#visible {
+    font-size: inherit !important;
+    padding: 0 !important;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    letter-spacing: -1px;
+    font-weight: 400;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+#invisble {
+    display: none !important;
+}

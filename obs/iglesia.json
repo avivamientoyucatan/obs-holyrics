@@ -1,0 +1,2356 @@
+{
+    "DesktopAudioDevice1": {
+        "prev_ver": 503447555,
+        "name": "Audio del escritorio",
+        "uuid": "917840bb-db88-4b35-a1a1-6c26fcf26333",
+        "id": "wasapi_output_capture",
+        "versioned_id": "wasapi_output_capture",
+        "settings": {
+            "device_id": "default"
+        },
+        "mixers": 255,
+        "sync": 0,
+        "flags": 2,
+        "volume": 0.79225540161132812,
+        "balance": 0.5,
+        "enabled": true,
+        "muted": true,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.unmute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": []
+        },
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 0,
+        "private_settings": {
+            "mixer_hidden": false
+        }
+    },
+    "AuxAudioDevice1": {
+        "prev_ver": 503447555,
+        "name": "2 - Micrófonos",
+        "uuid": "692899f3-1614-47b1-a2da-7a6d970e0df8",
+        "id": "wasapi_input_capture",
+        "versioned_id": "wasapi_input_capture",
+        "settings": {
+            "device_id": "{0.0.1.00000000}.{86f23150-b4e0-4071-b797-e7d298601b5c}"
+        },
+        "mixers": 255,
+        "sync": -50000000,
+        "flags": 2,
+        "volume": 0.79225540161132812,
+        "balance": 0.0,
+        "enabled": true,
+        "muted": true,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.unmute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": []
+        },
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 0,
+        "private_settings": {
+            "mixer_hidden": true
+        },
+        "filters": [
+            {
+                "prev_ver": 503447555,
+                "name": "Eliminación de ruido",
+                "uuid": "618cba66-43c0-4c74-ae4c-b2eb278b5828",
+                "id": "noise_suppress_filter",
+                "versioned_id": "noise_suppress_filter_v2",
+                "settings": {
+                    "method": "dereverb_denoiser",
+                    "intensity": 0.80000000000000004
+                },
+                "mixers": 255,
+                "sync": 0,
+                "flags": 0,
+                "volume": 1.0,
+                "balance": 0.5,
+                "enabled": true,
+                "muted": false,
+                "push-to-mute": false,
+                "push-to-mute-delay": 0,
+                "push-to-talk": false,
+                "push-to-talk-delay": 0,
+                "hotkeys": {},
+                "deinterlace_mode": 0,
+                "deinterlace_field_order": 0,
+                "monitoring_type": 0,
+                "private_settings": {}
+            },
+            {
+                "prev_ver": 503447555,
+                "name": "Ganancia",
+                "uuid": "0c87c58a-5080-4770-86d6-996cc1f371c2",
+                "id": "gain_filter",
+                "versioned_id": "gain_filter",
+                "settings": {
+                    "db": 4.5999999999999996
+                },
+                "mixers": 255,
+                "sync": 0,
+                "flags": 0,
+                "volume": 1.0,
+                "balance": 0.5,
+                "enabled": true,
+                "muted": false,
+                "push-to-mute": false,
+                "push-to-mute-delay": 0,
+                "push-to-talk": false,
+                "push-to-talk-delay": 0,
+                "hotkeys": {},
+                "deinterlace_mode": 0,
+                "deinterlace_field_order": 0,
+                "monitoring_type": 0,
+                "private_settings": {}
+            },
+            {
+                "prev_ver": 503447555,
+                "name": "Extensión VST 2.x",
+                "uuid": "bee03efb-2baf-4bed-9e90-8669ef5362c0",
+                "id": "vst_filter",
+                "versioned_id": "vst_filter",
+                "settings": {
+                    "plugin_path": "C:/Program Files/VSTPlugins/ReaPlugs/reaeq-standalone.dll",
+                    "chunk_data": "IQAAAAQAAAAAAAAAAQAAAM3IR4tF/WNA9xMhvtaV4T+v7Xw/NV7SPwEIAAAAAQAAAH+K5dDWtGxAiiX8+I4k9D9Fj8L1KFzjPwEIAAAAAQAAALx2I3ReqKBA2XFtG69g7T8iXI/C9Sj0PwEBAAAAAQAAAHfYkmqL4rZACq4i+9ZYAUC3cD0K16PkPwEBAAAAAQAAAPfcP3CR/vA/AAAAAA==",
+                    "chunk_hash": "4b87c6ed275ef63d9f4a298d4e92930f"
+                },
+                "mixers": 255,
+                "sync": 0,
+                "flags": 0,
+                "volume": 1.0,
+                "balance": 0.5,
+                "enabled": true,
+                "muted": false,
+                "push-to-mute": false,
+                "push-to-mute-delay": 0,
+                "push-to-talk": false,
+                "push-to-talk-delay": 0,
+                "hotkeys": {},
+                "deinterlace_mode": 0,
+                "deinterlace_field_order": 0,
+                "monitoring_type": 0,
+                "private_settings": {}
+            },
+            {
+                "prev_ver": 503447555,
+                "name": "Compresor",
+                "uuid": "afe824ec-8071-40f8-9142-76978adcbd9a",
+                "id": "compressor_filter",
+                "versioned_id": "compressor_filter",
+                "settings": {
+                    "ratio": 13.5,
+                    "threshold": -11.199999999999999,
+                    "attack_time": 1,
+                    "output_gain": 0.0
+                },
+                "mixers": 255,
+                "sync": 0,
+                "flags": 0,
+                "volume": 1.0,
+                "balance": 0.5,
+                "enabled": true,
+                "muted": false,
+                "push-to-mute": false,
+                "push-to-mute-delay": 0,
+                "push-to-talk": false,
+                "push-to-talk-delay": 0,
+                "hotkeys": {},
+                "deinterlace_mode": 0,
+                "deinterlace_field_order": 0,
+                "monitoring_type": 0,
+                "private_settings": {}
+            },
+            {
+                "prev_ver": 503447555,
+                "name": "Expansor",
+                "uuid": "4cdd372a-c680-4bff-9b38-2e256ad29f3f",
+                "id": "expander_filter",
+                "versioned_id": "expander_filter",
+                "settings": {
+                    "ratio": 4.0,
+                    "threshold": -60.0,
+                    "attack_time": 1,
+                    "release_time": 69,
+                    "output_gain": 12.199999999999999
+                },
+                "mixers": 255,
+                "sync": 0,
+                "flags": 0,
+                "volume": 1.0,
+                "balance": 0.5,
+                "enabled": true,
+                "muted": false,
+                "push-to-mute": false,
+                "push-to-mute-delay": 0,
+                "push-to-talk": false,
+                "push-to-talk-delay": 0,
+                "hotkeys": {},
+                "deinterlace_mode": 0,
+                "deinterlace_field_order": 0,
+                "monitoring_type": 0,
+                "private_settings": {}
+            },
+            {
+                "prev_ver": 503447555,
+                "name": "Reverb",
+                "uuid": "88033345-8843-457d-ad61-3b1ccfce197a",
+                "id": "vst_filter",
+                "versioned_id": "vst_filter",
+                "settings": {
+                    "plugin_path": "C:/Program Files/Steinberg/VstPlugins/TAL-Reverb-4-64.dll",
+                    "chunk_hash": "239eb00259a7c9da4315661dfc41f9b6",
+                    "chunk_data": "VkMyIdYBAAA8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJVVEYtOCI/PiA8dGFsIGN1cnByb2dyYW09IjAiIHZlcnNpb249IjIuMCI+PHByb2dyYW1zPjxwcm9ncmFtIGVmZmVjdHJldmVyYm9uPSIxLjAiIGVmZmVjdHJldmVyYmFtb3VudD0iMC4xNzU4NTkzNDY5ODU4MTciIGVmZmVjdHJldmVyYnNpZ25hbGFtb3VudD0iMS4wIiBlZmZlY3RyZXZlcmJkZWxheT0iMC4wIiBlZmZlY3RyZXZlcmJzaXplPSIwLjY5NDkyMTkxMDc2Mjc4NjkiIGVmZmVjdHJldmVyYmxvdz0iMC42MTk1NzgxMjMwOTI2NTE0IiBlZmZlY3RyZXZlcmJoaWdoPSIwLjM2NzM5MDYzMjYyOTM5NDUiIGVmZmVjdG1vZGFsdGlvbnNwZWVkPSIwLjMyNTkxNjAyMjA2MjMwMTYiIGVmZmVjdGRlcHRoPSIwLjM1MTA0NzYwNTI3NjEwNzgiIGVmZmVjdGRpZmZ1c2U9IjAuMzg0MDAwMDAzMzM3ODYwMSIgcHJvZ3JhbW5hbWU9IkRlZmF1bHQiLz48L3Byb2dyYW1zPjwvdGFsPgA="
+                },
+                "mixers": 255,
+                "sync": 0,
+                "flags": 0,
+                "volume": 1.0,
+                "balance": 0.5,
+                "enabled": false,
+                "muted": false,
+                "push-to-mute": false,
+                "push-to-mute-delay": 0,
+                "push-to-talk": false,
+                "push-to-talk-delay": 0,
+                "hotkeys": {},
+                "deinterlace_mode": 0,
+                "deinterlace_field_order": 0,
+                "monitoring_type": 0,
+                "private_settings": {}
+            },
+            {
+                "prev_ver": 503447555,
+                "name": "Limitador",
+                "uuid": "ab1020c8-1d65-47d1-b268-16c08868df5d",
+                "id": "limiter_filter",
+                "versioned_id": "limiter_filter",
+                "settings": {
+                    "threshold": -2.0,
+                    "release_time": 60
+                },
+                "mixers": 255,
+                "sync": 0,
+                "flags": 0,
+                "volume": 1.0,
+                "balance": 0.5,
+                "enabled": true,
+                "muted": false,
+                "push-to-mute": false,
+                "push-to-mute-delay": 0,
+                "push-to-talk": false,
+                "push-to-talk-delay": 0,
+                "hotkeys": {},
+                "deinterlace_mode": 0,
+                "deinterlace_field_order": 0,
+                "monitoring_type": 0,
+                "private_settings": {}
+            }
+        ]
+    },
+    "AuxAudioDevice2": {
+        "prev_ver": 503447555,
+        "name": "1 - Amplificador",
+        "uuid": "ec6b7dda-e22b-43cb-afd9-e575e37de78f",
+        "id": "wasapi_input_capture",
+        "versioned_id": "wasapi_input_capture",
+        "settings": {
+            "device_id": "{0.0.1.00000000}.{f5fafaf5-30ce-4f69-87df-a1aac88a5d78}"
+        },
+        "mixers": 255,
+        "sync": 75000000,
+        "flags": 2,
+        "volume": 1.0,
+        "balance": 1.0,
+        "enabled": true,
+        "muted": false,
+        "push-to-mute": false,
+        "push-to-mute-delay": 0,
+        "push-to-talk": false,
+        "push-to-talk-delay": 0,
+        "hotkeys": {
+            "libobs.mute": [],
+            "libobs.unmute": [],
+            "libobs.push-to-mute": [],
+            "libobs.push-to-talk": []
+        },
+        "deinterlace_mode": 0,
+        "deinterlace_field_order": 0,
+        "monitoring_type": 0,
+        "private_settings": {},
+        "filters": [
+            {
+                "prev_ver": 503447555,
+                "name": "Ganancia",
+                "uuid": "da91a2ad-6c66-4a1b-8ee5-4838858ca797",
+                "id": "gain_filter",
+                "versioned_id": "gain_filter",
+                "settings": {
+                    "db": 7.0
+                },
+                "mixers": 255,
+                "sync": 0,
+                "flags": 0,
+                "volume": 1.0,
+                "balance": 0.5,
+                "enabled": true,
+                "muted": false,
+                "push-to-mute": false,
+                "push-to-mute-delay": 0,
+                "push-to-talk": false,
+                "push-to-talk-delay": 0,
+                "hotkeys": {},
+                "deinterlace_mode": 0,
+                "deinterlace_field_order": 0,
+                "monitoring_type": 0,
+                "private_settings": {}
+            },
+            {
+                "prev_ver": 503447555,
+                "name": "Compresor",
+                "uuid": "c3df6c87-f94a-4821-88d3-d0715e59c246",
+                "id": "compressor_filter",
+                "versioned_id": "compressor_filter",
+                "settings": {
+                    "ratio": 10.0,
+                    "threshold": -11.4
+                },
+                "mixers": 255,
+                "sync": 0,
+                "flags": 0,
+                "volume": 1.0,
+                "balance": 0.5,
+                "enabled": false,
+                "muted": false,
+                "push-to-mute": false,
+                "push-to-mute-delay": 0,
+                "push-to-talk": false,
+                "push-to-talk-delay": 0,
+                "hotkeys": {},
+                "deinterlace_mode": 0,
+                "deinterlace_field_order": 0,
+                "monitoring_type": 0,
+                "private_settings": {}
+            },
+            {
+                "prev_ver": 503447555,
+                "name": "Limitador",
+                "uuid": "efa547f5-3dd9-40e7-836e-b7a7238d03d5",
+                "id": "limiter_filter",
+                "versioned_id": "limiter_filter",
+                "settings": {
+                    "threshold": -2.0
+                },
+                "mixers": 255,
+                "sync": 0,
+                "flags": 0,
+                "volume": 1.0,
+                "balance": 0.5,
+                "enabled": true,
+                "muted": false,
+                "push-to-mute": false,
+                "push-to-mute-delay": 0,
+                "push-to-talk": false,
+                "push-to-talk-delay": 0,
+                "hotkeys": {},
+                "deinterlace_mode": 0,
+                "deinterlace_field_order": 0,
+                "monitoring_type": 0,
+                "private_settings": {}
+            }
+        ]
+    },
+    "current_scene": "DSK - Normal Layout",
+    "current_program_scene": "DSK - Normal Layout",
+    "scene_order": [
+        {
+            "name": "----- MONITORING -----"
+        },
+        {
+            "name": "Monitoreo"
+        },
+        {
+            "name": "----- GENERAL SCENES -----"
+        },
+        {
+            "name": "Camara"
+        },
+        {
+            "name": "Camara Atril"
+        },
+        {
+            "name": "Camara Atril 2"
+        },
+        {
+            "name": "Camara Centro"
+        },
+        {
+            "name": "Camara Piano"
+        },
+        {
+            "name": "Camara Zoom"
+        },
+        {
+            "name": "Pantalla Grande"
+        },
+        {
+            "name": "----- SPANISH SCENES -----"
+        },
+        {
+            "name": "Miercoles"
+        },
+        {
+            "name": "Redes sociales"
+        },
+        {
+            "name": "Ofrendas"
+        },
+        {
+            "name": "----- NO USAR (DSK Configuracion) -----"
+        },
+        {
+            "name": "DSK - Normal Layout"
+        }
+    ],
+    "name": "Iglesia",
+    "groups": [],
+    "quick_transitions": [
+        {
+            "name": "Desvanecimiento",
+            "duration": 300,
+            "hotkeys": [],
+            "id": 1,
+            "fade_to_black": false
+        },
+        {
+            "name": "Desvanecimiento",
+            "duration": 300,
+            "hotkeys": [],
+            "id": 2,
+            "fade_to_black": false
+        },
+        {
+            "name": "Desvanecimiento",
+            "duration": 300,
+            "hotkeys": [],
+            "id": 3,
+            "fade_to_black": true
+        }
+    ],
+    "transitions": [
+        {
+            "name": "Stinger",
+            "id": "obs_stinger_transition",
+            "settings": {}
+        },
+        {
+            "name": "Deslizar",
+            "id": "swipe_transition",
+            "settings": {
+                "direction": "left"
+            }
+        }
+    ],
+    "saved_projectors": [],
+    "current_transition": "Desvanecimiento",
+    "transition_duration": 600,
+    "preview_locked": false,
+    "scaling_enabled": false,
+    "scaling_level": 0,
+    "scaling_off_x": 0.0,
+    "scaling_off_y": 0.0,
+    "virtual-camera": {
+        "type2": 3
+    },
+    "modules": {
+        "scripts-tool": [],
+        "output-timer": {
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 30,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 30,
+            "autoStartStreamTimer": false,
+            "autoStartRecordTimer": false,
+            "pauseRecordTimer": true
+        },
+        "auto-scene-switcher": {
+            "interval": 300,
+            "non_matching_scene": "",
+            "switch_if_not_matching": false,
+            "active": false,
+            "switches": []
+        },
+        "captions": {
+            "source": "",
+            "enabled": false,
+            "lang_id": 2058,
+            "provider": "mssapi"
+        },
+        "downstream_keyers_channel": 7,
+        "downstream_keyers": [
+            {
+                "name": "DSK 1",
+                "transition": "Desvanecimiento",
+                "transition_duration": 600,
+                "show_transition": "Desvanecimiento",
+                "show_transition_duration": 600,
+                "hide_transition": "Desvanecimiento",
+                "hide_transition_duration": 300,
+                "scenes": [
+                    {
+                        "name": "DSK - Normal Layout"
+                    }
+                ],
+                "scene": "DSK - Normal Layout",
+                "null_hotkey": [],
+                "enable_tie_hotkey": [],
+                "disable_tie_hotkey": [],
+                "exclude_scenes": [
+                    {
+                        "name": "Miercoles"
+                    },
+                    {
+                        "name": "Monitoreo"
+                    },
+                    {
+                        "name": "Ofrendas"
+                    },
+                    {
+                        "name": "Pantalla Grande"
+                    },
+                    {
+                        "name": "Santa Cena"
+                    },
+                    {
+                        "name": "Seminario de la familia"
+                    },
+                    {
+                        "name": "Servicios"
+                    }
+                ]
+            }
+        ]
+    },
+    "resolution": {
+        "x": 3840,
+        "y": 2160
+    },
+    "sources": [
+        {
+            "prev_ver": 503447555,
+            "name": "----- GENERAL SCENES -----",
+            "uuid": "56f9c070-17dd-47bc-a5c0-5fba346ed41c",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": []
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "----- MONITORING -----",
+            "uuid": "44a2bc7b-e7bc-4fbe-b371-a7b8f1d52832",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 1,
+                "custom_size": false,
+                "items": []
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "----- NO USAR (DSK Configuracion) -----",
+            "uuid": "c538b682-1c4b-4e82-9ab4-26796d96f205",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 0,
+                "custom_size": false,
+                "items": []
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "----- SPANISH SCENES -----",
+            "uuid": "1c62d3aa-53cc-4db9-8c19-7e2d940f231d",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 2,
+                "custom_size": false,
+                "items": []
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "20240630_102012_0000.png",
+            "uuid": "f1f56d7f-d3c6-4c3f-941a-725ea6287eb6",
+            "id": "image_source",
+            "versioned_id": "image_source",
+            "settings": {
+                "file": "C:/Users/USER/Documents/NO TOCAR/Assets OBS/20240630_102012_0000.png"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Camara",
+            "uuid": "922bf7df-0f58-4897-a5fe-ab297254c0f6",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 38,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Dispositivo de captura de video",
+                        "source_uuid": "2e6b6560-b49b-4197-ac89-b60760e7a2aa",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": -895.0,
+                            "y": -621.0
+                        },
+                        "scale": {
+                            "x": 2.3464844226837158,
+                            "y": 2.3465278148651123
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 36,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_F13"
+                    }
+                ],
+                "libobs.show_scene_item.36": [],
+                "libobs.hide_scene_item.36": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Camara Atril",
+            "uuid": "e509138d-24aa-4f0e-ad8b-c3f0e3ba650b",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 12,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Dispositivo de captura de video",
+                        "source_uuid": "2e6b6560-b49b-4197-ac89-b60760e7a2aa",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": -350.0,
+                            "y": -1144.0
+                        },
+                        "scale": {
+                            "x": 3.28515625,
+                            "y": 3.2854166030883789
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 10,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_F14"
+                    }
+                ],
+                "libobs.show_scene_item.10": [],
+                "libobs.hide_scene_item.10": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Camara Atril 2",
+            "uuid": "3f43db9f-e822-4d3e-a855-83ad242de3f0",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 8,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Dispositivo de captura de video",
+                        "source_uuid": "2e6b6560-b49b-4197-ac89-b60760e7a2aa",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": -1419.0,
+                            "y": -1100.0
+                        },
+                        "scale": {
+                            "x": 3.28515625,
+                            "y": 3.2854166030883789
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_F15"
+                    }
+                ],
+                "libobs.show_scene_item.8": [],
+                "libobs.hide_scene_item.8": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Camara Centro",
+            "uuid": "361aabbe-3f58-4eb0-b12a-2d88b3b358ec",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 8,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Dispositivo de captura de video",
+                        "source_uuid": "2e6b6560-b49b-4197-ac89-b60760e7a2aa",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": -1999.0,
+                            "y": -1174.0
+                        },
+                        "scale": {
+                            "x": 3.28515625,
+                            "y": 3.2854166030883789
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_F16"
+                    }
+                ],
+                "libobs.show_scene_item.8": [],
+                "libobs.hide_scene_item.8": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Camara Piano",
+            "uuid": "793dd469-c780-4a32-ad4e-656ab6e725d8",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 8,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Dispositivo de captura de video",
+                        "source_uuid": "2e6b6560-b49b-4197-ac89-b60760e7a2aa",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": -2736.0,
+                            "y": -1148.0
+                        },
+                        "scale": {
+                            "x": 3.28515625,
+                            "y": 3.2854166030883789
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 8,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_F17"
+                    }
+                ],
+                "libobs.show_scene_item.8": [],
+                "libobs.hide_scene_item.8": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Camara Zoom",
+            "uuid": "011b244c-759f-4123-9b74-59787ab24411",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 4,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Dispositivo de captura de video",
+                        "source_uuid": "2e6b6560-b49b-4197-ac89-b60760e7a2aa",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": -1105.0,
+                            "y": -756.0
+                        },
+                        "scale": {
+                            "x": 2.4222655296325684,
+                            "y": 2.4222221374511719
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_F18"
+                    }
+                ],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Dispositivo de captura de video",
+            "uuid": "2e6b6560-b49b-4197-ac89-b60760e7a2aa",
+            "id": "dshow_input",
+            "versioned_id": "dshow_input",
+            "settings": {
+                "video_device_id": "EMEET SmartCam C960 4K:\\\\?\\usb#22vid_328f&pid_0093&mi_00#226&2161d0fa&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "last_video_device_id": "EMEET SmartCam C960 4K:\\\\?\\usb#22vid_328f&pid_0093&mi_00#226&2161d0fa&0&0000#22{65e8773d-8f56-11d0-a3b9-00a0c9223196}\\global",
+                "resolution": "2560x1440",
+                "last_resolution": "2560x1440",
+                "frame_interval": -1,
+                "res_type": 1,
+                "active": true
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503447555,
+                    "name": "Aplicar LUT",
+                    "uuid": "54878839-2fbc-41f4-90eb-e4d3ed79ebc8",
+                    "id": "clut_filter",
+                    "versioned_id": "clut_filter",
+                    "settings": {
+                        "image_path": "C:/Program Files/obs-studio/data/obs-plugins/obs-filters/LUTs/GamingCareers_Barrera.png",
+                        "clut_amount": 0.27639999999999998,
+                        "passthrough_alpha": false
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "DSK - Normal Layout",
+            "uuid": "4cbbb774-6694-4d3a-9bb8-5a756f99ec4a",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 13,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Holyrics Custom Text",
+                        "source_uuid": "197fcc0d-d00c-4750-9dbe-e6189a2a25b4",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 960.0
+                        },
+                        "scale": {
+                            "x": 1.5,
+                            "y": 1.5
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "id": "fade_transition",
+                            "versioned_id": "fade_transition",
+                            "name": "Holyrics Custom Text Transición al mostrar",
+                            "transition": {},
+                            "duration": 600
+                        },
+                        "hide_transition": {
+                            "id": "fade_transition",
+                            "versioned_id": "fade_transition",
+                            "name": "Holyrics Custom Text Transición al ocultar",
+                            "transition": {},
+                            "duration": 600
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "20240630_102012_0000.png",
+                        "source_uuid": "f1f56d7f-d3c6-4c3f-941a-725ea6287eb6",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 3202.0,
+                            "y": 45.0
+                        },
+                        "scale": {
+                            "x": 0.17835909128189087,
+                            "y": 0.1784776896238327
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Pastora Patricia Castillo.mp4",
+                        "source_uuid": "13b48041-d79a-4041-b2e3-aa7d3b1183e2",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 2.0354166030883789,
+                            "y": 2.0351850986480713
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 12,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Pastor Jose Manuel Perez.mp4",
+                        "source_uuid": "6fff378e-0db5-4108-b3b2-f013a927ab87",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 2.0354166030883789,
+                            "y": 2.0351850986480713
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 13,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.3": [
+                    {
+                        "key": "OBS_KEY_F23"
+                    }
+                ],
+                "libobs.hide_scene_item.3": [
+                    {
+                        "key": "OBS_KEY_F24"
+                    }
+                ],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.12": [
+                    {
+                        "control": true,
+                        "key": "OBS_KEY_F17"
+                    }
+                ],
+                "libobs.hide_scene_item.12": [
+                    {
+                        "control": true,
+                        "key": "OBS_KEY_F18"
+                    }
+                ],
+                "libobs.show_scene_item.13": [
+                    {
+                        "control": true,
+                        "key": "OBS_KEY_F14"
+                    }
+                ],
+                "libobs.hide_scene_item.13": [
+                    {
+                        "control": true,
+                        "key": "OBS_KEY_F15"
+                    }
+                ],
+                "Mostrar DSK DSK 1": [],
+                "Ocultar DSK DSK 1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Holyrics Custom Text",
+            "uuid": "197fcc0d-d00c-4750-9dbe-e6189a2a25b4",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "http://192.168.1.12/view/text",
+                "width": 2560,
+                "height": 800,
+                "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }\n\n\n#visible span {\nopacity: 0;\nanimation-name: fadeIn;\nanimation-duration: .5s;\nanimation-fill-mode: forwards;\n}\n\n@keyframes fadeIn {\nfrom {opacity: 0;}\nto {opacity: 1;}\n}"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503447555,
+                    "name": "Sombra",
+                    "uuid": "667bc506-b8bb-4b0d-af8e-4e39023dd53a",
+                    "id": "obs_shadow_filter",
+                    "versioned_id": "obs_shadow_filter",
+                    "settings": {
+                        "fill": false,
+                        "glow_size": 8.0,
+                        "glow_intensity": 51.5,
+                        "glow_fill_type": 1,
+                        "glow_fill_color": 4278190080,
+                        "glow_position": 1,
+                        "blur_type": 1,
+                        "glow_offset_distance": 0.0
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": false,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Holyrics Text 2",
+            "uuid": "588fc511-2a9d-4f6a-83aa-16b3bd57da34",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "http://192.168.1.12:80/view/text2",
+                "width": 2560,
+                "height": 1080
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Miercoles",
+            "uuid": "71c3e4de-3924-4241-a138-08f2dcde7ff0",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 5,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Videos intros (3).mp4",
+                        "source_uuid": "c092d793-efb4-4cc3-b710-1cbd8f38f951",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 4,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_F22"
+                    }
+                ],
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Monitoreo",
+            "uuid": "1fe76751-c0de-4c39-80fa-5a81e3e91c79",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 12,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Reloj Naranja",
+                        "source_uuid": "2f64b5f0-f1ed-41d5-96ba-aef7b80aaa1e",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1524.0,
+                            "y": -78.0
+                        },
+                        "scale": {
+                            "x": 8.5100002288818359,
+                            "y": 8.5083332061767578
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Reloj Blanco",
+                        "source_uuid": "6808134a-6ac5-434c-9e2b-8318ed849e11",
+                        "visible": false,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 1461.0,
+                            "y": -96.0
+                        },
+                        "scale": {
+                            "x": 8.8599996566772461,
+                            "y": 8.8583335876464844
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 10,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Holyrics Text 2",
+                        "source_uuid": "588fc511-2a9d-4f6a-83aa-16b3bd57da34",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 445.0
+                        },
+                        "scale": {
+                            "x": 1.5,
+                            "y": 1.5
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 12,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": [],
+                "libobs.show_scene_item.10": [],
+                "libobs.hide_scene_item.10": [],
+                "libobs.show_scene_item.12": [],
+                "libobs.hide_scene_item.12": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Ofrendas",
+            "uuid": "cbfb42d6-65b1-4fca-b2cd-7535744e266f",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 2,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Ofrendas español",
+                        "source_uuid": "c2034f30-10c2-484c-9dff-3d0d9b824f30",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_F20"
+                    }
+                ],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Ofrendas español",
+            "uuid": "c2034f30-10c2-484c-9dff-3d0d9b824f30",
+            "id": "ffmpeg_source",
+            "versioned_id": "ffmpeg_source",
+            "settings": {
+                "local_file": "C:/Users/USER/Downloads/Tiempo de adoración (1).mp4",
+                "looping": true
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Play": [],
+                "MediaSource.Pause": [],
+                "MediaSource.Stop": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {
+                "mixer_hidden": true
+            }
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Pantalla Grande",
+            "uuid": "55045240-101e-4205-82d3-baa5f18c8abb",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 3,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Pantalla LG",
+                        "source_uuid": "d1ff71b4-45f3-460a-a462-7a61d724a9ae",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 1.5,
+                            "y": 1.5
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_F19"
+                    }
+                ],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Pantalla LG",
+            "uuid": "d1ff71b4-45f3-460a-a462-7a61d724a9ae",
+            "id": "monitor_capture",
+            "versioned_id": "monitor_capture",
+            "settings": {
+                "monitor_id": "\\\\?\\DISPLAY#GSM0001#5&187b064&0&UID4354#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}",
+                "force_sdr": false
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Pastor Jose Manuel Perez.mp4",
+            "uuid": "6fff378e-0db5-4108-b3b2-f013a927ab87",
+            "id": "ffmpeg_source",
+            "versioned_id": "ffmpeg_source",
+            "settings": {
+                "local_file": "C:/Users/USER/Documents/NO TOCAR/Assets OBS/Pastor Jose Manuel Perez.mp4",
+                "looping": false
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Play": [],
+                "MediaSource.Pause": [],
+                "MediaSource.Stop": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503447555,
+                    "name": "Fondo croma",
+                    "uuid": "17dcc223-f7ce-40c6-97d6-9f4386713a18",
+                    "id": "chroma_key_filter",
+                    "versioned_id": "chroma_key_filter_v2",
+                    "settings": {
+                        "similarity": 444
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Pastora Patricia Castillo.mp4",
+            "uuid": "13b48041-d79a-4041-b2e3-aa7d3b1183e2",
+            "id": "ffmpeg_source",
+            "versioned_id": "ffmpeg_source",
+            "settings": {
+                "local_file": "C:/Users/USER/Documents/NO TOCAR/Assets OBS/Pastora Patricia Castillo.mp4",
+                "looping": false
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Play": [],
+                "MediaSource.Pause": [],
+                "MediaSource.Stop": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {},
+            "filters": [
+                {
+                    "prev_ver": 503447555,
+                    "name": "Fondo croma",
+                    "uuid": "7fff8ca2-8f05-4222-9a0a-4d5343871371",
+                    "id": "chroma_key_filter",
+                    "versioned_id": "chroma_key_filter_v2",
+                    "settings": {
+                        "similarity": 444
+                    },
+                    "mixers": 0,
+                    "sync": 0,
+                    "flags": 0,
+                    "volume": 1.0,
+                    "balance": 0.5,
+                    "enabled": true,
+                    "muted": false,
+                    "push-to-mute": false,
+                    "push-to-mute-delay": 0,
+                    "push-to-talk": false,
+                    "push-to-talk-delay": 0,
+                    "hotkeys": {},
+                    "deinterlace_mode": 0,
+                    "deinterlace_field_order": 0,
+                    "monitoring_type": 0,
+                    "private_settings": {}
+                }
+            ]
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Redes sociales",
+            "uuid": "088c0137-eda4-4127-9eec-c275be9185b3",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "id_counter": 10,
+                "custom_size": false,
+                "items": [
+                    {
+                        "name": "Redes sociales.mp4",
+                        "source_uuid": "2ee342f1-b938-4b17-8cd9-c029805d22fe",
+                        "visible": true,
+                        "locked": false,
+                        "rot": 0.0,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale": {
+                            "x": 2.0,
+                            "y": 2.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 10,
+                        "group_item_backup": false,
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [
+                    {
+                        "key": "OBS_KEY_F21"
+                    }
+                ],
+                "libobs.show_scene_item.10": [],
+                "libobs.hide_scene_item.10": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Redes sociales.mp4",
+            "uuid": "2ee342f1-b938-4b17-8cd9-c029805d22fe",
+            "id": "ffmpeg_source",
+            "versioned_id": "ffmpeg_source",
+            "settings": {
+                "local_file": "C:/Users/USER/Documents/NO TOCAR/Assets Holyrics/Redes sociales.mp4",
+                "looping": true
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Play": [],
+                "MediaSource.Pause": [],
+                "MediaSource.Stop": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Reloj Blanco",
+            "uuid": "6808134a-6ac5-434c-9e2b-8318ed849e11",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://free.timeanddate.com/clock/i9hskeu8/n153/tlmx4/fn2/fs48/fcfff/tct/pct/ftb/th1",
+                "width": 300,
+                "height": 120
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Reloj Naranja",
+            "uuid": "2f64b5f0-f1ed-41d5-96ba-aef7b80aaa1e",
+            "id": "browser_source",
+            "versioned_id": "browser_source",
+            "settings": {
+                "url": "https://free.timeanddate.com/clock/i9gv13uz/n153/tlmx4/fn2/fs48/fcf90/tct/pct/ftb",
+                "width": 300,
+                "height": 120,
+                "fps_custom": false,
+                "shutdown": false,
+                "css": "body { background-color: rgba(0, 0, 0, 1); margin: 0px auto; overflow: hidden; }"
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "ObsBrowser.Refresh": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 503447555,
+            "name": "Videos intros (3).mp4",
+            "uuid": "c092d793-efb4-4cc3-b710-1cbd8f38f951",
+            "id": "ffmpeg_source",
+            "versioned_id": "ffmpeg_source",
+            "settings": {
+                "local_file": "C:/Users/USER/Downloads/Videos intros (3).mp4",
+                "looping": true
+            },
+            "mixers": 255,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": [],
+                "MediaSource.Restart": [],
+                "MediaSource.Play": [],
+                "MediaSource.Pause": [],
+                "MediaSource.Stop": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        }
+    ]
+}
