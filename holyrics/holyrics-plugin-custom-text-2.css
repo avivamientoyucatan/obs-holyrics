@@ -22,17 +22,60 @@
     
 }
 
+#visible {
+    padding-top: 150px !important;
+    height: calc(100% - 170px) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+#general {
+    width: 1920px;
+    height: 1080px;
+}
 
 #slide_info {
     display: block;
-    position: relative;
-    padding: 8px;
-    margin-top: -148px;
+    position: absolute;
     color: orange;
     font-size: 9rem;
     text-align: center;
     font-weight: 700;
+    top: 0px;
+    left: 396px;
+}
+
+#slide_info:before {
+ content: "Tono:";
+ position: absolute;
+ top: 0px;
+ left: -370px;
+}
+
+.bible_slide > ctt {
+    margin-top: 90px;
+    font-size: 6.9rem !important;
+    display: block;
+    line-height: 1.3em;
+}
+
+.bible_slide span:first-of-type {
+    position: absolute;
+    color: orange;
+    left: 0;
+    top: 0;
+    background: black;
+    z-index: 1;
+    font-weight: 700;
+    padding: 50px;
+    font-size: 6.2rem !important
+}
+
+.music_slide {
+    font-size: 7.2rem !important;
+    display: block;
+    line-height: 1.3em;
 }
 
 .music_title {
