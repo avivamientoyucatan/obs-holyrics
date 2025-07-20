@@ -1,0 +1,44 @@
+.screen-custom {
+    
+}
+
+.text-custom {
+    
+}
+
+.image-custom {
+    
+}
+
+.music_slide {
+    
+}
+
+.text_slide {
+    
+}
+
+.bible_slide {
+    
+}
+
+
+
+#slide_info {
+    display: block;
+    position: relative;
+    padding: 8px;
+    margin-top: -148px;
+    color: orange;
+    font-size: 9rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.music_title {
+    display: none;
+}
+
+.music_artist {
+    display: none;
+}
